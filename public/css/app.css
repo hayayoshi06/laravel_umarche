@@ -1491,9 +1491,35 @@ select {
   }
 }
 
-/* 仮追加  974 */
+/* 追加 編集 */
 
-.z-28 {
+.hy-01 { /* resources/views/admin/auth/login.blade.php */ /* resources/views/layouts/admin-navigation.blade.php */
     height: 100px;
     width: 100px;
+}
+.hy-02 { /* resources/views/admin/owners/create.blade.php */
+    width: 60%;
+}
+.hy-03 { /* resources/views/admin/owners/create.blade.php */
+    width: 130px;
+}
+.hy-04 { /* resources/views/admin/owners/index.blade.php */
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.hy-05 { /* resources/views/admin/owners/index.blade.php */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.-m-2 { /* resources/views/admin/owners/create.blade.php */
+    padding-right: 30%;
+    padding-left: 30%;
+}
+.bg-indigo-500 { /* resources/views/admin/owners/create.blade.php */
+    --tw-bg-opacity: 1;
+  background-color: rgb(111 0 255 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-indigo-600:hover { /* resources/views/admin/owners/create.blade.php */
+  --tw-bg-opacity: 1;
+  background-color: rgb(121 28 248 / var(--tw-bg-opacity, 1));
 }
