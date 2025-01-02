@@ -22,8 +22,9 @@
                     @endforeach --}}
                     <section class="text-gray-600 body-font hy-05">
                         <div class="container px-5 py-24 mx-auto">
+                            <x-flash-message status="info"/>
                             <div class="flex justify-end mb-4">
-                                <button onclick="location.href='{{route('admin.owners.create')}}'" class=" text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg hy-03">新規作成</button>
+                                <button onclick="location.href='{{route('admin.owners.create')}}'" class=" text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg ">新規作成</button>
                             </div>
                             <div class="lg:w-2/3 w-full mx-auto overflow-auto hy-04">
                                 <table class="table-auto w-full text-left whitespace-no-wrap">
@@ -49,7 +50,6 @@
                                                 <td class="px-4 py-3">{{ $owner->name }}</td>
                                                 <td class="px-4 py-3">{{ $owner->email }}</td>
                                                 <td class="px-4 py-3">{{ $owner->created_at->diffForHumans() }}</td>
-                                                {{-- <td class="px-4 py-3 text-lg text-gray-900">Free</td> --}}
                                                 <td class="w-10 text-center">
                                                     <input name="plan" type="radio">
                                                 </td>
