@@ -1648,4 +1648,8 @@ select {
 .hy-03 { /* resources/views/components/flash-message.blade.php */
     width: 500px;
 }
+.hy-04 { /* resources/views/admin/owners/index.blade.php */
+    width: 80%;
+}
+
 
